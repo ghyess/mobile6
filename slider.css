@@ -1,0 +1,168 @@
+@charset "utf-8";
+/*    메인 슬라이드    */
+#vs {
+    width: 100%;
+    height: 304px;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 14%;
+}
+
+#vs .imgBox {
+    width: 2070px;
+    height: 304px;
+    position: relative;
+}
+#vs .imgFrame {
+    width: 414px;
+    height: 304px;
+    float: left;
+}
+#vs .imgFrame img {
+    width: 414px;
+    height: 304px;
+}
+
+/*    메인 버튼목록    */
+#vs .btn_list {
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+    z-index: 20;
+}
+#vs .btn_list .btn {
+    background-image: url(ico/btn_off.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 20;
+}
+#vs .btn_list .btn.on {
+    background-image: url(ico/btn_on1.png);
+}
+
+#vs .btn_list .btn[data-value="0"] { left: 0;}
+#vs .btn_list .btn[data-value="1"] { left: 15%;}
+#vs .btn_list .btn[data-value="2"] { left: 30%;}
+#vs .btn_list .btn[data-value="3"] { left: 45%;}
+#vs .btn_list .btn[data-value="4"] { left: 60%;}
+
+
+/*    메인-슬라이드 두 번째    */
+#home_idea {
+    width: 100%;
+    height: 500px;
+    background: #F2F2F2;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+#home_idea .conTit {
+    font-size: 1.3em;
+    background-color: transparent;
+    color: #005e9d;
+    margin-bottom: 1%;
+}
+#home_idea .conCom {
+    margin-bottom: 3%;
+    color: #424242;
+}
+
+#home_idea #idea_vs {
+    width: 100%;
+    height: 365px;
+    position: relative;
+}
+#home_idea .ideaBox {
+    width: 1320px;
+    height: 365px;
+    position: relative;
+    margin-top: 5%;
+}
+
+#home_idea .ideaFrame {
+    width: 180px;
+    height: 365px;
+    float: left;
+    background: #fff;
+    margin: 10px 10px 0 10px;
+}
+#home_idea .idea {
+    width: 167px;
+    height: 167px;
+    margin: 5px 6px 0 6px;
+}
+
+#home_idea .idea_txt {
+    width: 168px;
+    height: 180px;
+    margin: 6px;
+    position: relative;
+}
+#home_idea .idea_Tit {
+    color: #005e9d;
+    line-height: 1.5;
+}
+#home_idea .idea_txt a{
+    color: #424242;
+    font-size: .85em;
+    line-height: 3;
+}
+#home_idea .idea_txt .more {
+    font-size: .8em;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 4%;
+}
+
+/*    작성자 아이콘    */
+#home_idea .idea_txt.cs img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    float: left;
+}
+#home_idea .idea_txt.cs .idea_Tit {
+    float: left;
+    text-indent: 6%;
+}
+#home_idea .idea_txt.cs .date {
+    font-size: .7em;
+    color: #424242;
+    text-indent: 6%;
+}
+#home_idea .idea_txt.cs .idea_com {
+    line-height: 1.5;
+    margin-top: 3%;
+}
+
+/*    슬라이드 버튼    */
+#home_idea .bt_box {
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    z-index: 50;
+}
+#home_idea .bt_box label {
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    z-index: 50;
+    position: absolute;
+    cursor: pointer;
+}
+#home_idea .bt_box #prev {
+    left: 0;
+    background-image: url(ico/button_prev.png);
+    background-size: 35px 35px;
+}
+#home_idea .bt_box #next {
+    right: 5%;
+    background-image: url(ico/button_next.png);
+    background-size: 35px 35px;
+}

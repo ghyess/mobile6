@@ -1,0 +1,139 @@
+@charset "utf-8";
+/*    컨텐츠 공통 영역    */
+.con {
+    width: 100%;
+    height: 205px;
+    box-sizing: border-box;
+    position: relative;
+    padding: 20px 10px 10px 10px;
+    clear: both;
+}
+
+.conTit {
+    font-size: 0.9em;
+    background: #005e9d;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.proWrap {
+    width: 200%;
+    height: 130px;
+    overflow: hidden;
+    margin-top: 3%;
+}
+
+.pro_inner {
+    width: 130px;
+    height: 130px;
+    float: left;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.pro_inner .product {
+    width: 64px;
+    height: 64px;
+    margin: 0 0 0 25px;
+}
+
+.pro_inner .proTit a {
+    color: #005e9d;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.3;
+}
+.pro_inner .proCom {
+    font-size: .65em;
+    text-align: center;
+    color: #ffda1a;
+}
+.pro_inner .price {
+    font-size: .7em;
+    text-align: center;
+    color: #333;
+}
+
+.conCom {
+    text-align: center;
+    font-size: .9em;
+    color: #848484;
+}
+.con_Com {
+    text-align: center;
+    color: #BDBDBD;
+    font-size: .8em;
+    margin-bottom: 2%;
+}
+
+/*    컨텐츠-칠드런    */
+
+#children {
+    width: 100%;
+    height: 510px;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    margin-top: 5%;
+}
+
+#children .conTit {
+    font-size: 1.3em;
+    background-color: transparent;
+    color: #005e9d;
+    margin-bottom: 1%;
+}
+
+#children .visual {
+    width: 390px;
+    height: 245px;
+}
+
+
+/*    컨텐츠-스토리, 푸드    */
+#content {
+    height: 253px;
+    border-bottom: 1px solid #D8D8D8;
+}
+#content .con_Box {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#content .story {
+    float: left;
+    width: 184px;
+    height: 213px;
+}
+#content .story img {
+    width: 184px;
+    height: 213px;
+}
+
+#content .food {
+    float: right;
+    width: 184px;
+    height: 213px;
+}
+#content .food img {
+    width: 184px;
+    height: 213px;
+}
+
+/*    컨텐츠-커스터머    */
+#customer {
+    height: 435px;
+}
+#customer .cs {
+    width: 100%;
+    height: 410px;
+    position: relative;
+}
+#customer img {
+    width: 370px;
+    height: 189px;
+    margin: 5px 0 0 3%;
+}
